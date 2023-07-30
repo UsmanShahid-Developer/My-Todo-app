@@ -1,0 +1,21 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    width: 500px;
+    /* height: 50px; */
+    border: 3px solid hsl(225, 100%, 99%);
+    border-radius: 2px;
+    padding: 6px;
+    background-color: aqua;
+    margin-top: 50px ;
+color: #000;
+}
+p{
+    margin: 0px;
+}
+
+ .btn1{
+    height: 50px;    
+} 
+
