@@ -1,5 +1,3 @@
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -11,25 +9,32 @@
   color: rgb(236, 134, 134);
 }
 
-.wrapper{
-  background: black;
+.wrapper {
+  background: rgba(0, 0, 0, 0.59);
   padding: 20px;
   border-radius: 10px;
   box-shadow: #282c34;
 }
-.input-wrapper{
+
+.input-wrapper {
   display: flex;
   justify-content: space-between;
   width: 500px;
 }
 
-.input-wrapper input{
-  border-radius: 5%;
+.input-wrapper input {
+  border-radius: 10px;
   border: 0%;
-background-color: aliceblue ;
-padding: 16px;
-height: 50px;
-width: 400px;
+  background-color: aliceblue;
+  padding: 16px;
+  height: 50px;
+  width: 400px;
 
 }
 
+.btn2 {
+  width: 90px;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.613);
+  background-color: rgba(255, 255, 255, 0.903);
+}

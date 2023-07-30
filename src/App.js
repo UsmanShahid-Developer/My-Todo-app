@@ -19,8 +19,8 @@ setCurrentItem("")
       <header className="App-header">
        <div className='wrapper'>
         <div className='input-wrapper' >
-          <input value={currentItem} onChange={onChangeHandler} />
-          <button onClick={addItemToList} >Add</button>
+          <input value={currentItem} onChange={onChangeHandler} placeholder="Enter Todo......" />
+          <button onClick={addItemToList}   className="btn2" >Add</button>
         </div>
         <List itemList={itemList} updateItemList={updateItemList} />
        </div>
