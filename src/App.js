@@ -8,7 +8,7 @@ function App() {
         <div className='wrapper'>
           <div className='input-wrapper'>
             <input className=''/>
-            <button>Add</button>
+            <button className='button-add'>Add</button>
           </div>
         </div>
       </header>
